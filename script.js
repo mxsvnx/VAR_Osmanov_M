@@ -65,8 +65,8 @@ const newsData = [
         function createNewsCards() {
             const newsContainer = document.getElementById('news-container');
             
-            // Ограничиваем до 5 новостей для главной страницы
-            const newsToShow = newsData.slice(0, 5);
+            // Ограничиваем до 6 новостей для главной страницы
+            const newsToShow = newsData.slice(0, 6);
             
             newsToShow.forEach((news, index) => {
                 const newsCard = document.createElement('article');
